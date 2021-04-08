@@ -14,7 +14,7 @@ print() #Empty print statement(just prints the text below on a new line, provide
 
 
 for i in range(1,6): #A for loop which gives the user 5 chances to enter the correct answer. As computers start counting from 0 its techically counting from 0-4 which still alows for 5 chances.
-         randomnumber=random.randint(1,100) #Initialise the random number function and set it to create a random number in the range 1 t0 100.
+         randomnumber=random.randint(1,100) #Initialise the random number function and set it to create a random number in the range 1 to 100.
          gameinput = int(input("Please guess a number between 1 and 100 ")) #User input using the keyboard as an integer it instructs them to enter a guess
          if gameinput == randomnumber: #An if statement that compares what the user has inputted to the previously generated random number
              print("Your guess is correct!") #When the if statement condiiton is true, it will print that the user is correct
